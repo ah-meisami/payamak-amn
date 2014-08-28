@@ -16,7 +16,10 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fe355bd-aa3b-48ed-95a9-841de5da75b0" name="Default" comment="" />
+    <list default="true" id="2fe355bd-aa3b-48ed-95a9-841de5da75b0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="MyAndroidApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -535,7 +538,7 @@
       <workItem from="1408724274100" duration="11919000" />
       <workItem from="1408738006885" duration="25000" />
       <workItem from="1409256821642" duration="8529000" />
-      <workItem from="1409265390389" duration="31000" />
+      <workItem from="1409265390389" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT">
       <created>1408708067317</created>
@@ -557,7 +560,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43013000" />
+    <option name="totallyTimeSpent" value="43103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1278" height="770" extended-state="0" />
