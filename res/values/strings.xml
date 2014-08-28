@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Secure*SMS</string>
+    <string name="str_help1">بسمه تعالی</string>
+    <string name="str_help2">پروژه پایانی دوره کارشناسی</string>
+    <string name="str_help3">دانشکده فنی و مهندسی دانشگاه آزاد اسلامی واحد تهران شمال</string>
+    <string name="str_help4">محمد رضا میثمی</string>
+    <string name="str_help5">تابستان 1393</string>
+
+    <string name="str_header">پروژه : ارسال پیامک امن</string>
+    <string name="str_footer">استاد : آقای صالح حافظ قرآنی</string>
+
+    <string name="str_publickey1">کلید تبادل اطلاعات :</string>
+    <string name="str_publickey2">اطلاعات با موفقیت ذخیره شد.</string>
+    <string name="str_publickey3">لطفاً کلید تبادل اطلاعات را بطور صحیح وارد کنید.</string>
+    <string name="str_publickey4">ذخیره</string>
+    <string name="str_publickey5">فقط عدد و حروف لاتین</string>
+    <string name="str_publickey6">PUBLIC-KEY</string>
+
+
+    <string name="str_send1">لطفاٌ شماره تلفن مورد نظر را وارد نمایید :</string>
+    <string name="str_send2">لطفاٌ متن پیام را بنویسید :</string>
+    <string name="str_send3">پیام شما با موفقیت ارسال شد .</string>
+    <string name="str_send4">ارسال پیام ناموفق بود، دوباره سعی کنید .</string>
+    <string name="str_send5">ارسال پیام</string>
+
+
+
+</resources>

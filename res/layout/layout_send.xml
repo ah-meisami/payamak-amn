@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <!-- Header aligned to top -->
+    <RelativeLayout android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:background="#ffacd8ef" android:gravity="center">
+        <TextView android:layout_width="wrap_content" android:layout_height="30dp" android:layout_margin="1dp" android:text="@string/str_header" android:textColor="#000000" android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <!-- Footer aligned to bottom -->
+    <RelativeLayout android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:background="#ffacd8ef" android:gravity="center">
+        <TextView android:layout_width="wrap_content" android:layout_height="30dp" android:layout_margin="5dp" android:text="@string/str_footer" android:textColor="#000000" android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <!-- Scrollable Content below header and above footer -->
+    <ScrollView android:id="@+id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer" android:layout_below="@id/header">
+        <LinearLayout  android:layout_width="fill_parent" android:layout_height="fill_parent"  android:layout_gravity="center" android:gravity="center" android:orientation="vertical">
+            <TextView  android:id="@+id/textViewPhoneNo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_send1" android:textSize="14dp" />
+            <EditText android:id="@+id/layout_send_phoneno" android:layout_width="fill_parent" android:layout_height="wrap_content" android:phoneNumber="true" />
+            <TextView android:id="@+id/textViewSMS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_send2" android:textSize="14dp" />
+            <EditText android:id="@+id/layout_send_editsms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textMultiLine" android:lines="5" android:gravity="top" />
+            <Button android:id="@+id/layout_send_btnSend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str_send5" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
