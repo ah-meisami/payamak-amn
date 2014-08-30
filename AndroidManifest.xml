@@ -18,9 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:label="@string/app_name" android:name=".HelpActivity"/>
-        <activity android:label="@string/app_name" android:name=".InboxActivity"/>
+        <activity android:label="@string/app_name" android:name=".ShowSmsActivity"/>
         <activity android:label="@string/app_name" android:name=".SendActivity"/>
-        <activity android:label="@string/app_name" android:name=".SentActivity"/>
         <activity android:label="@string/app_name" android:name=".PublicKeyActivity"/>
     </application>
 
