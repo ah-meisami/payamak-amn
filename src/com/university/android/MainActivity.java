@@ -21,40 +21,42 @@ public class MainActivity extends Activity {
         layout_main_btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intencion = new Intent(view.getContext(), PublicKeyActivity.class);
-                startActivity(intencion);
+                Intent intent = new Intent(view.getContext(), PublicKeyActivity.class);
+                startActivity(intent);
             }
         });
 
         layout_main_btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intencion = new Intent(view.getContext(), SendActivity.class);
-                startActivity(intencion);
+                Intent intent = new Intent(view.getContext(), SendActivity.class);
+                startActivity(intent);
             }
         });
 
         layout_main_btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intencion = new Intent(view.getContext(), InboxActivity.class);
-                startActivity(intencion);
+                Intent intent = new Intent(view.getContext(), ShowSmsActivity.class);
+                intent.putExtra(getString(R.string.str_reading_mode), "inbox");
+                startActivity(intent);
             }
         });
 
         layout_main_btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intencion = new Intent(view.getContext(), SentActivity.class);
-                startActivity(intencion);
+                Intent intent = new Intent(view.getContext(), ShowSmsActivity.class);
+                intent.putExtra(getString(R.string.str_reading_mode), "sent");
+                startActivity(intent);
             }
         });
 
         layout_main_btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intencion = new Intent(view.getContext(), HelpActivity.class);
-                startActivity(intencion);
+                Intent intent = new Intent(view.getContext(), HelpActivity.class);
+                startActivity(intent);
             }
         });
     }

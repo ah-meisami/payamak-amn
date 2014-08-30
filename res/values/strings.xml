@@ -24,6 +24,5 @@
     <string name="str_send4">ارسال پیام ناموفق بود، دوباره سعی کنید .</string>
     <string name="str_send5">ارسال پیام</string>
 
-
-
+    <string name="str_reading_mode">READ_SMS_FROM_INBOX_OR_SENT</string>
 </resources>
