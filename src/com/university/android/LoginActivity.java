@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -31,7 +30,6 @@ public class LoginActivity extends Activity {
                 value = layout_publickey_edittext.getText().toString().trim();
 
                 if (value.equals("")) {
-
                     Toast.makeText(getApplicationContext(), getString(R.string.str_publickey3), Toast.LENGTH_SHORT).show();
                 } else {
                     PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).edit().putString(getString(R.string.str_publickey6), value).commit();
