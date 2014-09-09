@@ -29,10 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fe355bd-aa3b-48ed-95a9-841de5da75b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/university/android/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/university/android/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/university/android/ShowSmsActivity.java" afterPath="$PROJECT_DIR$/src/com/university/android/ShowSmsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/payamak-amn.iml" afterPath="$PROJECT_DIR$/payamak-amn.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyAndroidApp.iws" />
@@ -97,7 +94,17 @@
     <favorites_list name="MyAndroidApp" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.19476268" vertical-offset="0" max-vertical-offset="611">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -132,8 +139,8 @@
         <option value="$PROJECT_DIR$/src/com/university/android/LoginActivity.java" />
         <option value="$PROJECT_DIR$/src/com/university/android/PublicKeyActivity.java" />
         <option value="$PROJECT_DIR$/src/com/university/android/SendActivity.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/university/android/ShowSmsActivity.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -532,7 +539,7 @@
       <workItem from="1410460543601" duration="1915000" />
       <workItem from="1410462530614" duration="1145000" />
       <workItem from="1410464383874" duration="528000" />
-      <workItem from="1410291703687" duration="228000" />
+      <workItem from="1410291703687" duration="467000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT">
       <created>1408708067317</created>
@@ -566,11 +573,15 @@
       <created>1410461640946</created>
       <updated>1410461640946</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modify README.md">
+      <created>1410292018016</created>
+      <updated>1410292018016</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64916000" />
+    <option name="totallyTimeSpent" value="65155000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -594,7 +605,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="780" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295302" sideWeight="0.42877698" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5694864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -610,13 +621,14 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779455" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5241692" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17689823" sideWeight="0.43001443" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17689823" sideWeight="0.43001443" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32326284" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295302" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
@@ -625,7 +637,6 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32779455" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -680,7 +691,8 @@
     <MESSAGE value="merge inbox &amp;&amp; sent in to showsms" />
     <MESSAGE value="nokate gofte shode Mr.Saleh Hafez Ghorani bad az jalase 93/06/18" />
     <MESSAGE value="nokate gofte shode Mr.Saleh Hafez Ghorani bad az jalase 93/06/18&#10;if there is no sms in inbox || sent then app crashed.&#10;but fixed.&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="nokate gofte shode Mr.Saleh Hafez Ghorani bad az jalase 93/06/18&#10;if there is no sms in inbox || sent then app crashed.&#10;but fixed.&#10;&#10;" />
+    <MESSAGE value="modify README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -857,16 +869,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/com/university/android/ShowSmsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="205" selection-end="205" vertical-scroll-proportion="0.19476268" vertical-offset="0" max-vertical-offset="611">
+        <state line="65" column="61" selection-start="2881" selection-end="2881" vertical-scroll-proportion="0.7358491" vertical-offset="433" max-vertical-offset="1071">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/university/android/ShowSmsActivity.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="61" selection-start="2881" selection-end="2881" vertical-scroll-proportion="0.7358491" vertical-offset="433" max-vertical-offset="1071">
+        <state line="7" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.19476268" vertical-offset="0" max-vertical-offset="611">
           <folding />
         </state>
       </provider>
