@@ -98,7 +98,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.19476268" vertical-offset="0" max-vertical-offset="611">
+            <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.111292966" vertical-offset="0" max-vertical-offset="611">
               <folding />
             </state>
           </provider>
@@ -539,7 +539,7 @@
       <workItem from="1410460543601" duration="1915000" />
       <workItem from="1410462530614" duration="1145000" />
       <workItem from="1410464383874" duration="528000" />
-      <workItem from="1410291703687" duration="467000" />
+      <workItem from="1410291703687" duration="574000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT">
       <created>1408708067317</created>
@@ -577,11 +577,15 @@
       <created>1410292018016</created>
       <updated>1410292018016</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modify README.md&#10;">
+      <created>1410292177304</created>
+      <updated>1410292177304</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65155000" />
+    <option name="totallyTimeSpent" value="65262000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -692,7 +696,8 @@
     <MESSAGE value="nokate gofte shode Mr.Saleh Hafez Ghorani bad az jalase 93/06/18" />
     <MESSAGE value="nokate gofte shode Mr.Saleh Hafez Ghorani bad az jalase 93/06/18&#10;if there is no sms in inbox || sent then app crashed.&#10;but fixed.&#10;&#10;" />
     <MESSAGE value="modify README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify README.md" />
+    <MESSAGE value="modify README.md&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify README.md&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -878,7 +883,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="209" selection-end="209" vertical-scroll-proportion="0.19476268" vertical-offset="0" max-vertical-offset="611">
+        <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.111292966" vertical-offset="0" max-vertical-offset="611">
           <folding />
         </state>
       </provider>
