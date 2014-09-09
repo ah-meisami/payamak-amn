@@ -11,7 +11,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-import com.university.android.util.CherryEncoderUtil;
+import com.university.android.util.Crypto;
 
 public class SendActivity extends Activity {
 
@@ -40,7 +40,8 @@ public class SendActivity extends Activity {
 
                 String strSecureSMS = "";
                 try {
-                   strSecureSMS = CherryEncoderUtil.getAESEncrypt(valuePK, sms);
+                    Crypto crypto = new Crypto(valuePK);
+                    strSecureSMS = crypto.encrypt(sms);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

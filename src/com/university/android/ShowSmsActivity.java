@@ -12,7 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.university.android.util.CherryEncoderUtil;
+import com.university.android.util.Crypto;
 
 
 public class ShowSmsActivity extends Activity {
@@ -40,30 +40,35 @@ public class ShowSmsActivity extends Activity {
         LinearLayout layout_inbox_content = (LinearLayout) findViewById(R.id.layout_content); // Get parent UI id
 
         int i = 0;
-        cursor.moveToFirst();
-        while(cursor.moveToNext()){
-            i++;
-            String smsAddress = cursor.getString(cursor.getColumnIndex("address"));
-            String smsBody = cursor.getString(cursor.getColumnIndex("body"));
-            try {
-                smsBody = CherryEncoderUtil.getAESDecrypt(valuePK, smsBody);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            Log.d("sms-address", smsAddress);
-            Log.d("sms-body", smsBody);
+        if(cursor.getCount()>0){
+            cursor.moveToFirst();
+            do{
+                i++;
+                String smsAddress = cursor.getString(cursor.getColumnIndex("address"));
+                Log.d("sms-address", smsAddress);
+                String smsBody = cursor.getString(cursor.getColumnIndex("body"));
+                Log.d("sms-body-before", smsBody);
+                try {
+                    Crypto crypto = new Crypto(valuePK);
+                    smsBody = crypto.decrypt(smsBody);
+                } catch (Exception e) {
+                    smsBody = e.getMessage();
+                    e.printStackTrace();
+                }
+                Log.d("sms-body-after", smsBody);
 
-            //*********************************************** Create UI Dynamically for each sms
-            View view = inflater.inflate(R.layout.layout_sms , layout_inbox_content , false);
-            ((TextView) view.findViewById(R.id.layout_sms_address)).setText(smsAddress);
-            ((TextView) view.findViewById(R.id.layout_sms_body)).setText(smsBody);
-            if(i%2==0){
-                view.setBackgroundColor(Color.parseColor("#636161"));
-            }else {
-                view.setBackgroundColor(Color.parseColor("#6E954B"));
-            }
-            layout_inbox_content.addView(view);
-            //***********************************************
-         }
+                //*********************************************** Create UI Dynamically for each sms
+                View view = inflater.inflate(R.layout.layout_sms , layout_inbox_content , false);
+                ((TextView) view.findViewById(R.id.layout_sms_address)).setText(smsAddress);
+                ((TextView) view.findViewById(R.id.layout_sms_body)).setText(smsBody);
+                if(i%2==0){
+                    view.setBackgroundColor(Color.parseColor("#636161"));
+                }else {
+                    view.setBackgroundColor(Color.parseColor("#6E954B"));
+                }
+                layout_inbox_content.addView(view);
+                //***********************************************
+             }while(cursor.moveToNext());
+        }
     }
 }
