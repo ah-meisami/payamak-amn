@@ -63,7 +63,7 @@ public class ShowSmsActivity extends Activity {
                 view.setBackgroundColor(Color.parseColor("#6E954B"));
             }
             layout_inbox_content.addView(view);
-            //***********************************************123
+            //***********************************************
          }
     }
 }
