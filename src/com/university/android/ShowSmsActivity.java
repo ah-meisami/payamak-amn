@@ -35,8 +35,8 @@ public class ShowSmsActivity extends Activity {
         } else if (str_reading_mode.equals("sent")){
             cursor = getContentResolver().query(Uri.parse("content://sms/sent"), null, null, null, null);
         }
-
-        LayoutInflater inflater = (LayoutInflater)getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE); // Get UI service for creating dynamic UI
+        // Get UI service for creating dynamic UI
+        LayoutInflater inflater = (LayoutInflater)getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         LinearLayout layout_inbox_content = (LinearLayout) findViewById(R.id.layout_content); // Get parent UI id
 
         int i = 0;

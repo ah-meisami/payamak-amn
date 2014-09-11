@@ -55,7 +55,8 @@ public class SendActivity extends Activity {
                     values.put("body", strSecureSMS);
                     getApplicationContext().getContentResolver().insert(Uri.parse("content://sms/sent"), values);
 
-					Toast.makeText(getApplicationContext(), getString(R.string.str_send3), Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), getString(R.string.str_send3), Toast.LENGTH_LONG).show();
+                    finish();
 				} catch (Exception e) {
 					Toast.makeText(getApplicationContext(), getString(R.string.str_send4), Toast.LENGTH_LONG).show();
 					e.printStackTrace();

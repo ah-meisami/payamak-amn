@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Secure*SMS</string>
     <string name="str_help1">بسمه تعالی</string>
+    <string name="str_Login1">ورود به برنامه</string>
     <string name="str_help2">پروژه پایانی دوره کارشناسی</string>
     <string name="str_help3">دانشکده فنی و مهندسی دانشگاه آزاد اسلامی واحد تهران شمال</string>
     <string name="str_help4">محمد رضا میثمی</string>
