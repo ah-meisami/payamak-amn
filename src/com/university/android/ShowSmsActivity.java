@@ -41,7 +41,7 @@ public class ShowSmsActivity extends Activity {
 
         int i = 0;
         cursor.moveToFirst();
-        do{
+        while(cursor.moveToNext()){
             i++;
             String smsAddress = cursor.getString(cursor.getColumnIndex("address"));
             String smsBody = cursor.getString(cursor.getColumnIndex("body"));
@@ -64,6 +64,6 @@ public class ShowSmsActivity extends Activity {
             }
             layout_inbox_content.addView(view);
             //***********************************************
-         }while(cursor.moveToNext());
+         }
     }
 }
