@@ -70,7 +70,8 @@ public class Crypto {
             // Decode using utf-8
             rVal = new String(utf8, "UTF8");
         } catch (Exception e) {
-            rVal = "Error encrypting: " + e.getMessage();
+//            rVal = "Error encrypting: " + e.getMessage();
+            rVal = str;
         }
         return rVal;
     }

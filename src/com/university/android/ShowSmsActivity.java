@@ -48,15 +48,9 @@ public class ShowSmsActivity extends Activity {
                 Log.d("sms-address", smsAddress);
                 String smsBody = cursor.getString(cursor.getColumnIndex("body"));
                 Log.d("sms-body-before", smsBody);
-                try {
-                    Crypto crypto = new Crypto(valuePK);
-                    smsBody = crypto.decrypt(smsBody);
-                } catch (Exception e) {
-                    smsBody = e.getMessage();
-                    e.printStackTrace();
-                }
+                Crypto crypto = new Crypto(valuePK);
+                smsBody = crypto.decrypt(smsBody);
                 Log.d("sms-body-after", smsBody);
-
                 //*********************************************** Create UI Dynamically for each sms
                 View view = inflater.inflate(R.layout.layout_sms , layout_inbox_content , false);
                 ((TextView) view.findViewById(R.id.layout_sms_address)).setText(smsAddress);
